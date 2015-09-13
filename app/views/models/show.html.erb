@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+
+<div class ='model'>
+    <div class ='image'>
+        <img src=<%= @model.image %>>
+   </div>
+
+
+<div id ="top_left"> Conversion Rate</div>
+   <div id = "converstion_rate">
+      <%= @model.converstion_rate %>
+   </div>
+    <div id ="sub_left">Out of 47  </div>
+
+
+
+
+   <div id ="top_right"> Model Revenue</div>
+
+   <div class = "total_revenue">
+      140k
+   </div>
+   <div id ="sub_right">Agency - 30k  </div>
+
+
+   <div id = "left_stats">
+<%= @model.age %> - <%= @model.height %> - <%= @model.weight %>
+   </div>
+
+   <div id = "right_stats">
+<%= @model.bust %> - <%= @model.waist %> - <%= @model.hips %>
+   </div>
+
+     <div class ="name ">
+      <%= @model.name%>
+      </div>
+
+      <div class = "graph_location">
+
+      <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfl1/v/t1.0-9/11990683_889685197256_3012961056131745034_n.jpg?oh=50583606425637fa4cd4ccf18ea1cf14&oe=56ABB25C">
+
+      </div>
+
+
+      <div id= "middle_bar"></div>
+
+      <div class= "jobs">
+      <ul style = "list-style-type:none">
+        <% @jobs.first(12).each do |job| %>
+        <li class="job"><%= job.title %>     l     <%= job.date %>     l    2,000</li>
+        <% end %>
+      </ul>
+
+
+      </div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

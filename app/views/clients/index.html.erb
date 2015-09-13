@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+
+
+
+<% @clients.each do |client| %>
+<div class ='clients'>
+    <div class ='image'>
+        <img src=<%= client.logo %>>
+   </div>
+    <div class ="name "> <%= client.name %></div>
+    <div id="jobs_converted"><%= client.jobs_converted%> </div>
+    <div id="revenue"><%= client.revenue%> </div>
+</div>
+
+<% end %>
+
+
+
+</body>
+</html>
+

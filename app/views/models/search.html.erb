@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+
+<% randomnum = rand(7) %>
+
+
+
+<%@models.first(3).each do |result|%>
+
+
+
+<a href="models/<%=result.id  %>">
+<div class ='models'>
+    <div class ='image'>
+        <img src=<%= result.image %>>
+   </div>
+       <div class ="first-name "> <%= result.name %></div>
+    <div id="first_precentage"><%= result.converstion_rate %> </div>
+</div>
+</a>
+<% end %>
+
+
+
+</body>
+</html>
+

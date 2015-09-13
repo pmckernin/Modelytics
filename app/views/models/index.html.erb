@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<div class = "search_area"></div>
+
+
+<% @models.each do |babe| %>
+<a href="models/<%=babe.id  %>">
+<div class ='models'>
+    <div class ='image'>
+
+        <img src=<%= babe.image %>>
+   </div>
+
+
+       <div class ="first-name "> <%= babe.name %></div>
+
+
+
+    <div id="first_precentage"><%= babe.letter %> </div>
+</div>
+</a>
+<% end %>
+
+
+
+</body>
+</html>
+

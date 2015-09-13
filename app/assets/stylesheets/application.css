@@ -1,0 +1,373 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+/*=========================================================================
+Everything relatating to the Search options
+*/
+
+
+
+/*=========================================================================
+Everything relatating to the Model tile
+*/
+
+
+
+
+.models {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            height: 280px;
+            width: 175px;
+
+            background: #fafbfb;
+            margin-left: 40px;
+            margin-top:40px;
+            border-width:1px;
+            border-style: solid;
+            border-color: black;
+
+
+         }
+         .models .image{
+            position: absolute;
+            height: 120px;
+            width: 120px;
+
+            margin-top: 20px;
+            margin-left: 25px;
+
+            border-radius: 60px;
+            overflow: hidden;
+
+         }
+
+         .models .first-name {
+            position:absolute;
+            top: 160px;
+            color:black;
+            height: 20px;
+            width: 175px;
+            text-align: center;
+            font-size: 20px;
+         }
+
+         .models #first_precentage{
+          position: absolute;
+          top: 195px;
+          width: 175px;
+          color:#006600;
+
+          padding-top: 0px;
+          font-size: 50px;
+          text-align: center;
+          padding-bottom: 0px;
+        }
+
+        .models #conversion_rate{
+          position: absolute;
+          top: 195px;
+          width: 175px;
+          color:#006600;
+
+          padding-top: 0px;
+          font-size: 50px;
+          text-align: center;
+          padding-bottom: 0px;
+        }
+
+
+
+         .image img{
+         max-height: 100%;
+         max-width: 100%;
+         }
+
+/*=========================================================================
+Everything relatating to the Client tile
+*/
+
+
+
+
+.clients {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            height: 280px;
+            width: 175px;
+
+
+            margin-left: 40px;
+            margin-top:40px;
+            border-width:1px;
+            border-style: solid;
+            border-color: black;
+
+
+         }
+         .clients .image{
+            position: absolute;
+            height: 120px;
+            width: 120px;
+
+            margin-top: 20px;
+            margin-left: 25px;
+
+            border-radius: 0px;
+            overflow: hidden;
+
+         }
+
+         .clients .name {
+            position:absolute;
+            top: 140px;
+            color:black;
+            height: 20px;
+            width: 175px;
+            text-align: center;
+            font-size: 20px;
+         }
+
+         .clients #jobs_converted{
+          position: absolute;
+          top: 160px;
+          width: 175px;
+          color:#006600;
+
+          padding-top: 0px;
+          font-size: 50px;
+          text-align: center;
+          padding-bottom: 0px;
+        }
+
+          .clients #revenue{
+          position: absolute;
+          top: 220px;
+          width: 175px;
+          color:#00005C;
+
+          padding-top: 0px;
+          font-size: 30px;
+          text-align: center;
+          padding-bottom: 0px;
+        }
+
+
+
+
+         .image img{
+         max-height: 100%;
+         max-width: 100%;
+         }
+
+
+/*=========================================================================
+Everything relatating to the Model Show Slide
+*/
+
+
+
+
+.model {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            height: 500px;
+            width: 700px;
+
+
+            margin-left: 40px;
+            margin-top:40px;
+            border-width:1px;
+            border-style: solid;
+            border-color: black;
+
+
+         }
+         .model .image{
+            position: absolute;
+            left:250px;
+            height: 120px;
+            width: 120px;
+
+            margin-top: 20px;
+            margin-left: 25px;
+
+            border-radius: 60px;
+            overflow: hidden;
+
+         }
+
+         .model .name {
+            position:absolute;
+            top: 140px;
+            left: 250px;
+            color:black;
+            height: 20px;
+            width: 175px;
+            text-align: center;
+            font-size: 20px;
+         }
+
+         .model #converstion_rate {
+            position:absolute;
+            top: 40px;
+            left: 25px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 50px;
+         }
+
+         .model .total_revenue {
+            position:absolute;
+            top: 40px;
+            left: 450px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 50px;
+         }
+
+
+             .model #top_right {
+            position:absolute;
+            top: 25px;
+            left: 450px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+
+         }
+
+          .model #top_left {
+            position:absolute;
+            top: 25px;
+            left: 25px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+
+         }
+
+            .model #sub_left {
+            position:absolute;
+            top: 95px;
+            left: 25px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+
+         }
+
+                .model #sub_right {
+            position:absolute;
+            top: 95px;
+            left: 450px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+
+         }
+
+
+          .model #left_stats {
+            position:absolute;
+            top: 125px;
+            left: 25px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+
+         }
+
+          .model #right_stats {
+            position:absolute;
+            top: 125px;
+            left: 450px;
+            color:black;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+         }
+
+           .model #middle_bar {
+            position:absolute;
+            top: 185px;
+            left: 350px;
+            color:black;
+            height: 275px;
+            width: 5px;
+            text-align: center;
+            font-size: 30px;
+            background-color: black;
+         }
+
+             .model .jobs {
+            position:absolute;
+            top: 185px;
+            left: 375px;
+            color:black;
+            height: 275px;
+            width: 300px;
+            text-align: center;
+            font-size: 30px;
+
+         }
+
+           .model .graph_location {
+            position:absolute;
+            top: 240px;
+            left: 25px;
+            color:black;
+            height: 275px;
+            width: 300px;
+            text-align: center;
+            font-size: 30px;
+
+         }
+
+         .job{
+          font-size: 15px;
+         }
+
+         .graph_location img{
+         max-height: 100%;
+         max-width: 100%;
+         }
+
+
+          .image img{
+         max-height: 100%;
+         max-width: 100%;
+         }
